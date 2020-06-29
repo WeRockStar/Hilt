@@ -1,8 +1,9 @@
-package com.werockstar.hilt
+package com.werockstar.hilt.ui
 
 import android.content.SharedPreferences
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.werockstar.hilt.R
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
