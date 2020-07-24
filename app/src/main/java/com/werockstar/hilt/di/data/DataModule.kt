@@ -1,4 +1,4 @@
-package com.werockstar.hilt.di
+package com.werockstar.hilt.di.data
 
 import android.content.Context
 import android.content.SharedPreferences
