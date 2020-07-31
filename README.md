@@ -3,6 +3,7 @@
 
 ##### TODO
 - [x] Configuration
+- [ ] Clean Architecture + MVI
 - [ ] ViewModel with Hilt
 - [ ] Testing with Hilt
 - [ ] Modular with Hilt
