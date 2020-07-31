@@ -12,7 +12,7 @@ before_script:
   - ./gradlew tasks
 
 script:
-  - ./gradlew build check
+  - ./gradlew test
 
 cache:
   directories:
