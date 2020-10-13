@@ -2,7 +2,7 @@ language: android
 dist: trusty
 android:
   components:
-    - build-tools-30.0.1
+    - build-tools-30.0.2
     - android-30
     - extra-google-m2repository
     - extra-android-m2repository
