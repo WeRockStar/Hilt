@@ -1,7 +1,9 @@
 package com.werockstar.hilt
 
+import com.werockstar.hilt.di.domain.DomainModule
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
+import dagger.hilt.android.testing.UninstallModules
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
@@ -9,7 +11,8 @@ import org.junit.Test
 import javax.inject.Inject
 
 @HiltAndroidTest
-class MainTest {
+@UninstallModules(DomainModule::class)
+class MainActivityTest {
 
 	@get:Rule(order = 1)
 	val hiltRule = HiltAndroidRule(this)
@@ -22,7 +25,7 @@ class MainTest {
 	}
 
 	@Test
-	fun name() {
-		assertEquals("This is domain", s)
+	fun this_is_a_test() {
+		assertEquals("This is test domain", s)
 	}
 }
