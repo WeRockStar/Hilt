@@ -2,7 +2,7 @@ language: android
 dist: trusty
 android:
   components:
-    - build-tools-30.0.2
+    - build-tools-30.0.3
     - android-30
     - extra-google-m2repository
     - extra-android-m2repository
@@ -12,6 +12,9 @@ android:
 
 script:
   - ./gradlew test
+
+jdk:
+  - oraclejdk11
 
 cache:
   directories:
